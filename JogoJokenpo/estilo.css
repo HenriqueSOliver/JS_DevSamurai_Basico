@@ -6,7 +6,6 @@
 
 #principal{
     list-style: none;
-    
 }
 
 #titulo{
@@ -52,30 +51,30 @@
     font-size: 52px;
 }
 
-#jogador-pontos{
+#jogador-pontos, #computador-pontos{
     right: 20px;
 }
 
-#jogador #jogador-escolha, #computador, #computador-escolha{
+#jogador #jogador-escolha, #computador #computador-escolha{
     list-style: none;
     text-align: center;
     margin: 30px 0 0;
     padding: 0;
 }
 
-#jogador #jogador-escolha li, #computador, #computador-escolha li{
+#jogador #jogador-escolha li, #computador #computador-escolha li{
     display: inline;
     padding: 0 15px;
 }
-#jogador #jogador-escolha a, #computador, #computador-escolha a{
+#jogador #jogador-escolha a, #computador #computador-escolha a{
     opacity: .2;
 }
 
-#jogador #jogador-escolha a:hover, #computador, #computador-escolha a:hover{
+#jogador #jogador-escolha a:hover, #computador #computador-escolha a:hover{
     opacity: 1;
 }
 
-#jogador #jogador-escolha img, #computador, #computador-escolha img {
+#jogador #jogador-escolha img, #computador #computador-escolha img {
     max-width: 80px;
 }
 
