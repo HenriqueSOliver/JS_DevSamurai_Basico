@@ -1,0 +1,54 @@
+
+#principal{
+    border: 1px solid red;
+}
+
+#jogador, #computador{
+    flex-grow: 1;
+    height: 200px;
+}
+
+#placar{
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogador {
+    background-color: red;       
+}
+
+#jogador #jogador-escolha{
+    list-style: nome;
+    margin: 0;
+    padding: 0;
+}
+
+#jogador #jogador-escolha li{
+    display: inline;
+}
+
+#jogador #jogador-escolha a {
+
+}
+
+#jogador #jogador-escolha img {
+    max-width: 50px;
+}
+
+#versus {
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+#computador{
+    background-color: green;
+}
+
+#mensagem{
+    clear: both;
+    border: 1px solid green;
+}
+

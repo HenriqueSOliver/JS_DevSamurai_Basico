@@ -1,23 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JOKENPO</title>
-
-    <style>
-        #principal{
-            border: 1px solid red;
-        }
-
-        #placar{
-            border: 1px solid blue;
-        }
-
-        #mensagem{
-            border: 1px solid green;
-        }
-    </style>
+    <link rel="stylesheet" href="estilo.css">
 
 </head>
 <body>
@@ -27,15 +14,23 @@
 
         <div id="placar">
             <div id="jogador">
-                Jogador
+                <h3 id="jogador-nome">Humano</h3>
+                <span id="jogador-pontos">0</span>
+                <ul id="jogador-escolha">
+                    <li><a id="jogador-escolha-1"><img src="JogoJokenpo\imagem\papel.png"></a></li>
+                    <li><a id="jogador-escolha-2"><img src="JogoJokenpo\imagem\pedra.png"></a></li>
+                    <li><a id="jogador-escolha-3"><img src="JogoJokenpo\imagem\tesoura.png"></a></li>
+                </ul>
+
            </div>
 
            <div id="versus">
-            VS
+               <h3>VS</h3>
            </div>
 
             <div id="computador">
-                Computador
+                <h3>Computador</h3>
+                <span id="computador-pontos">0</span>
             </div>
         </div>
 
