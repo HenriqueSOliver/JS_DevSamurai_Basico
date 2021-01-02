@@ -1,5 +1,6 @@
 var jogadorNome;
-var computadorEscolha, jogadorEscolha = 0
+var computadorEscolha = 0
+var jogadorEscolha = 0
 var jogadorPontos = 0
 var computadorPontos = 0
 
@@ -120,4 +121,4 @@ jogadorNome = prompt('Qual é o seu nome? ');
 
 //insere nome do jogador nos campos nome usuário + Tela de bem-vindo
 mensagem('Bem-Vindo ' + jogadorNome + ' está preparado? Escolha uma opção acima...')
-definirNomeJogador(JogadorNome);
+definirNomeJogador(jogadorNome);
